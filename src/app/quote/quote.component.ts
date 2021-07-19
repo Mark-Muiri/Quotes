@@ -21,6 +21,7 @@ export class QuoteComponent implements OnInit {
      toggleDetails (index:any) {
       this.quote[index].showDescription = !this.quote[index].showDescription;
     }
+    
     addNewQuote(quote:any){    
       let quoteLength = this.quote.length;
       quote.id = quoteLength+1;
