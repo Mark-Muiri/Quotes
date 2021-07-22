@@ -1,6 +1,17 @@
-<p>{{quotes.description}}</p>
-<p> {{quotes.description|dateCount}} days</p>
-<button (click)= 'quoteDelete(true)'  class="btn btn-outline-danger">Delete Quote</button>
 
-<button (click)='upvote()'>upvote</button>
-<button (click)='downvote'>downvote</button>
+<p>
+    
+    <button (click)= "upVoteButtonClick()" class="upvote">👍</button>
+    <br>
+
+    {{numberOfVotes}}
+    <button (click)= "downVoteButtonClick()" class="downvote">👎</button>
+
+    
+<br>
+    submitted on {{quote.submitDate|date}}
+    <br>
+    published on {{quote.submitDate|date|publishDate}} days
+    <br>
+    <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+</p>
