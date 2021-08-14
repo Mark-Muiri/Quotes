@@ -1,27 +1,58 @@
-# Qoutes
+# Quota
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+### Written By: [Mark Muiri](https://github.com/Mark-Muiri)
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Quota is a web app that allows a user to view quotes, vote on a quote, delete quotes and even creating quotes.
+Try it now.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-  A form to create a quote.
 
-## Build
+-  Quotes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Known Bugs
 
-## Running end-to-end tests
+-  The only bug is the submit date counts days from the coming days not the past days.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Behavoiur Driven Development
 
-## Further help
+-  Click See More on a quote to see more details.
+-  Click the thumbs up button to upvote on a quote.
+-  Click the thumbs down button to downvote a quote.
+-  Click Delete Quote to delete a quote.
+-  Input quote in the create quote form.
+-  Input author of quote in the create quote form.
+- Click Add Quote to add a quote.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Setup/Installation Requirements
+
+-  -- git clone [your repository name]
+-  -- cd [your repository name]
+
+#### Prerequisites
+
+1 A text editor preferable to install Visual Studio Code.
+
+2 Google Chrome
+
+### Technologies Used
+
+-  HTML
+-  CSS
+-  BOOTSTRAP
+-  Angularjs
+
+### Support and contact details
+
+If any problems arise contact me at:
+
+-  [email](mark.muiri@student.moringaschool.com)
+
+### License
+
+[Here] (https://choosealicense.com/licenses/mit/)

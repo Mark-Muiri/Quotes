@@ -1,34 +1,35 @@
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:40px">QUOTE GENIE!</h1>
-    
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:40px">Quote 🧞 !</h1>
+        <h6>Home to every quote</h6>
 
-  </div>
+      </div>
 
-  <div class="container-fluid">
-    <h5>Quotes</h5>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div *ngFor='let quote of quote; let i = index'>
-            <p ng-repeat="quote in quotes">
-            <p>{{quote.quote}}
-              <br>
-              ~{{quote.author}}
-              <br>
-              <button (click)='toggleDetails(i)'> Toggle</button>
+      <div class="container-fluid">
+        <h5>Quotes</h5>
+        <div class="containe">
+          <div class="row">
+            <div class="col-md-6">
+              <div *ngFor='let quote of quotes; let i = index'>
+                <p ng-repeat="quote in quotes">
+                <p>{{quote.quote}}
+                  <br>
+                  ~{{quote.author}}
+                  <br>
+                  <button (click)='toggleDetails(i)'> See more</button>
 
-              <app-quote-detail *ngIf='quote.showSubmitDate' [quotes]='quote'
-                (publishDate)='deleteQuote($event,i)'></app-quote-detail>
-            </p>
-          </div>
-          </div>
-          <div class="col-md-6">
-            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+                  <app-quote-structure *ngIf='quote.showSubmitDate' [quote]='quote'
+                    (publishDate)='deleteQuote($event,i)'></app-quote-structure>
+                </p>
+              </div>
+              </div>
+              <div class="col-md-4">
+                <app-quote-input-form (addQuote)="addNewQuote($event)"></app-quote-input-form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <br>
+      <br>
 
+  

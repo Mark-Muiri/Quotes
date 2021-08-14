@@ -1,26 +1,26 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
-import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { PublishDatePipe } from './published-date.pipe';
+import { QuoteStructureComponent } from './quote-structure/quote-structure.component';
+import { PublishDatePipe } from './publish-date.pipe';
+import { QuoteInputFormComponent } from './quote-input-form/quote-input-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    QuoteDetailComponent,
-    QuoteFormComponent,    
-    PublishDatePipe
+    QuoteStructureComponent,
+    PublishDatePipe,
+    QuoteInputFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

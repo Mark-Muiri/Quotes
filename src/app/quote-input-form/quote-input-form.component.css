@@ -1,0 +1,19 @@
+h2{
+    text-align: start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #40E0D0;
+    margin: 0px;
+}
+form{
+    text-align: left;
+    color: #40E0D0;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 298px;
+    
+}
+
+button {
+    background-color: t#40E0D0;
+    font-size: 15px;
+}

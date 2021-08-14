@@ -1,7 +1,64 @@
+body{
+    
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+
+  
 h1 {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    color:#40E0D0 ;
 }
-h5{
-    color: crimson;
-    text-align: justify;
+h6 {
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    color:#40E0D0;
 }
+button {
+    color: #40E0D0;
+    border-radius: 3px;
+    background-color: beige;
+    font-size: 14px;
+}
+
+p:hover {
+    zoom: 1.1;
+    
+}
+
+p {
+  color: darkslategray;
+  
+}
+ 
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  h5{
+      text-align: left;
+      font-style: oblique;
+      color: red;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+     
+  }
+  .container{
+      justify-content: center;
+      
+  }
+  .hero-image {
+    /* background-image:  url(""); */
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
